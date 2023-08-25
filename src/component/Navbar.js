@@ -17,7 +17,7 @@ const Navbar = () => {
     };
   }, []);
   return (
-    <div className="bg-[#F83A40] p-1 flex flex-row justify-between items-center md:text-md md:font-semibold xl:text-lg xl:font-bold text-white">
+    <div className="bg-[#F83A40] p-1 flex flex-row justify-between items-center md:text-md md:font-semibold xl:text-lg text-white">
       <p className="mx-5 lg:mx-10">Get trusted online ID here</p>
 
       {/* Hamburger/Cross Icon for Mobile */}
@@ -64,14 +64,14 @@ const Navbar = () => {
           !isMenuOpen ? "translate-x-full" : "translate-x-0"
         } lg:translate-x-0 lg:static lg:bg-transparent`}
       >
-        <ul className="flex flex-col lg:flex-row lg:justify-between bg-white  text-[#F83A40] font-bold lg:text-white lg:bg-[#F83A40] space-y-10 lg:space-y-0 lg:space-x-5 p-10 lg:p-0">
+        <ul className="flex flex-col lg:flex-row lg:justify-between bg-white  text-[#F83A40] font-bold lg:font-semibold lg:text-white lg:bg-[#F83A40] space-y-10 lg:space-y-0 lg:space-x-5 p-10 lg:p-0">
           <li className="mx-3 lg:mx-5 text-2xl lg:text-[1.125rem]">
             <a href="#home">Home</a>
           </li>
           <li className="mx-3 lg:mx-5 text-2xl lg:text-[1.125rem]">
             <a href="#Contact Us">Contact Us</a>
           </li>
-          <li className="mx-3 lg:mx-5 text-2xl lg:text-[1.125rem]">
+          <li className="mx-3 lg:mx-5 text-2xl lg:text-[1.125rem] lg:pr-[1rem]">
             <a href="#Privacy Policy">Privacy Policy</a>
           </li>
         </ul>
