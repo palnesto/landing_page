@@ -8,17 +8,17 @@ const Follow = () => {
       </p>
       <div className="flex items-center justify-center lg:justify-start">
         <div>
-          <a href="https://www.instagram.com/" target="_blank">
+          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer noopener">
             <img src="/instagram.png" alt="instagram" className="mr-4" />
           </a>
         </div>
         <div>
-          <a href="https://www.facebook.com/" target="_blank">
+          <a href="https://www.facebook.com/" target="_blank" rel="noreferrer noopener">
             <AiFillFacebook size={35} color="#3D5A98" />
           </a>
         </div>
         <div>
-          <a href="https://twitter.com/" target="_blank">
+          <a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">
             <img src="/twitter.png" alt="twitter" className="ml-4" />
           </a>
         </div>

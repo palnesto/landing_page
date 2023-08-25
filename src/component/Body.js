@@ -19,7 +19,7 @@ const Body = () => {
         <p className="text-white font-Poppins text-base font-bold leading-9 text-center mt-10">
           GET YOUR ONLINE ID IN 5MINS
         </p>
-        <a href="//api.whatsapp.com/send?phone=919700739627&text=Hi, i would like to make a request" target="_blank">
+        <a href="//api.whatsapp.com/send?phone=919700739627&text=Hi, i would like to make a request" target="_blank" rel="noreferrer noopener">
         <button className="bg-[#F83A40] w-60 h-12 font-bold  rounded-lg mt-10 text-[#FFFFFF]">
           WHATSAPP NOW
         </button>
