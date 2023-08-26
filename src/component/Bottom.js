@@ -1,5 +1,6 @@
 import React from "react";
 import Follow from "./Follow";
+import Buttons from "./Button";
 
 const Bottom = () => {
   return (
@@ -8,13 +9,11 @@ const Bottom = () => {
         style={{ boxShadow: "2px 4px 20px 10px #0000000D" }}
         className="p-7 lg:p-10 rounded-3xl text-center lg:text-left"
       >
-        <p className="font-Poppins text-lg lg:text-base font-bold leading-9">
+        <p className="mb-5 font-Poppins text-lg lg:text-base font-bold leading-9">
           WELCOME IN THE FAMILY OF BetEx247 - OLDEST FANTASY SPORTS PROVIDER
         </p>
-        <button className="bg-[#F83A40] my-5 w-60 h-10 rounded-lg font-bold text-[#FFFFFF]">
-          GET YOUR ID NOW
-        </button>
-        <p className="font-poppins text-lg font-medium leading-8">
+        <Buttons text="GET YOUR ID NOW" />
+        <p className="mt-5 font-poppins text-lg font-medium leading-8">
           Get in touch with BetEx247 for any Queries, Emergencies, Feedback, or
           Complaints. We are here to help you 24*7 with our services on
           WhatsApp.
