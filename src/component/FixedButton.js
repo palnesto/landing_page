@@ -3,7 +3,7 @@ import { BsWhatsapp } from "react-icons/bs";
 const FixedButton = () => {
   return (
     <a
-      href="//api.whatsapp.com/send?phone=919700739627&text=Hi, i would like to make a request"
+      href="https://w.app/bytex247"
       target="_blank"
       rel="noreferrer noopener"
     >
