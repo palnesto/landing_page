@@ -12,14 +12,9 @@ const Bottom = () => {
         <p className="mb-5 font-Poppins text-lg lg:text-base font-bold leading-9">
           WELCOME IN THE FAMILY OF BetEx247 - OLDEST FANTASY SPORTS PROVIDER
         </p>
-        <a
-          href="//api.whatsapp.com/send?phone=919700739627&text=Hi, i would like to make a request"
-          target="_blank"
-          rel="noreferrer noopener"
-          className="mt-10"
-        >
+        <div className="mt-10 animate-bounce">
           <Buttons text="GET YOUR ID NOW" />
-        </a>
+        </div>
         <p className="mt-5 font-poppins text-lg font-medium leading-8">
           Get in touch with BetEx247 for any Queries, Emergencies, Feedback, or
           Complaints. We are here to help you 24*7 with our services on

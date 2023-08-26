@@ -20,15 +20,9 @@ const Body = () => {
         <p className="text-white font-Poppins text-base font-bold leading-9 text-center mt-10">
           GET YOUR ONLINE ID IN 5MINS
         </p>
-
-        <a
-          href="//api.whatsapp.com/send?phone=919700739627&text=Hi, i would like to make a request"
-          target="_blank"
-          rel="noreferrer noopener"
-          className="mt-10"
-        >
+        <div className="mt-10 animate-pulse">
           <Buttons text="WHATSAPP NOW" />
-        </a>
+        </div>
         <div className="flex flex-col items-center justify-center text-center">
           <p className="lg:leading-9 text-5xl lg:text-8xl text-[#FFFFFF] mt-12 font-extrabold font-Poppins">
             TRUSTED{" "}
