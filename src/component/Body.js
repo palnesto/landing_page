@@ -33,9 +33,9 @@ const Body = () => {
         <p className="text-white font-Poppins text-base font-bold leading-9 text-center mt-10">
           GET YOUR ONLINE ID IN 5MINS
         </p>
-        <div>
+       <div className="animate-blink">
           <a href="https://api.whatsapp.com/send?phone=+918297855853&text=Hello+I+want+a+ID+">
-            <img src="./whatsapp.png" alt="whatsApp logo" />
+            <img src="./Whatsapp.png" alt="WhatsApp logo" />
           </a>
         </div>
         <div className="lg:flex flex-row mb-3">
